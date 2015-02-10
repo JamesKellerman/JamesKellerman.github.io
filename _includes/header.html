@@ -14,7 +14,8 @@
 
 
 		<div class="trigger">
-		{% for page in site.pages %}
+		{% assign sorted_pages = site.pages | sort:"order" %}
+		{% for page in sorted_pages %}
 		{% if page.title %}
 		<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
 		{% endif %}
@@ -33,7 +34,7 @@
             <li {% if page.title == 'James Kellerman' %} class="active" {% endif %}>
 						<a href="../index.html">Home</a></li>
             <li {% if page.title == 'Projects' %} class="active" {% endif %}>
-						<a href="#">Projects</a></li>
+						<a href="../projects/projects.html">Projects</a></li>
             <li {% if page.title == 'Resume' %} class="active" {% endif %}>
 						<a href="../resume/resume.html">Resume</a></li>
             <li {% if page.title == 'About' %} class="active" {% endif %}>

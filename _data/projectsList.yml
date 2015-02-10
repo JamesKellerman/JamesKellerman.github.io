@@ -1,0 +1,32 @@
+- name: Zombie Massacre
+  link:
+  position: Lead Developer
+  description: A portable zombie shooter game for PSP
+  image: ../images/ZombieMassacre.jpg
+
+- name: Corner Detection
+  link:
+  position: Lead Developer
+  description: A computer vision program that detects corners in different images and matches them
+  image: ../images/CornerDetection.png
+
+- name: Chess AI
+  link:
+  position: Lead Developer
+  description: An Artificial Intelligence that plays Chess
+  image: ../images/Chess.png
+
+- name: <a href="http://blog.megaminerai.com/about_us/">SIG-Game</a> Projects
+  break: true
+
+- name: Plants MegaMinerAI 14
+  link: https://github.com/siggame/MegaMinerAI-14
+  position: Visualizer Developer
+  description: Branch out and dominate
+  image: ../images/Plants.png
+
+- name: Droids MegaMinerAI 13
+  link: https://github.com/siggame/MegaMinerAI-13
+  position: Game Designer and Tester
+  description: Disassemble and destroy
+  image: ../images/Droids.png

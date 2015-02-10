@@ -1,6 +1,7 @@
 ---
 title: About
 layout: default
+order: 4
 ---
 
 <div align="center">
