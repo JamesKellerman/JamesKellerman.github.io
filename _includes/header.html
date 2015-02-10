@@ -1,8 +1,7 @@
-<header class="site-header">
+<header>
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -13,15 +12,36 @@
         </svg>
       </a>
 
-      <div class="trigger">
-        {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}
-      </div>
+
+		<div class="trigger">
+		{% for page in site.pages %}
+		{% if page.title %}
+		<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+		{% endif %}
+		{% endfor %}
+		</div>
+
+
     </nav>
 
   </div>
+
+			<div class="container">
+      <div class="header">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li {% if page.title == 'James Kellerman' %} class="active" {% endif %}>
+						<a href="../index.html">Home</a></li>
+            <li {% if page.title == 'Projects' %} class="active" {% endif %}>
+						<a href="#">Projects</a></li>
+            <li {% if page.title == 'Resume' %} class="active" {% endif %}>
+						<a href="../resume/resume.html">Resume</a></li>
+            <li {% if page.title == 'About' %} class="active" {% endif %}>
+						<a href="../about/about.html">About</a></li>
+          </ul>
+        </nav>
+        <h2>James Kellerman</h2>
+      </div>
+			</div>
 
 </header>

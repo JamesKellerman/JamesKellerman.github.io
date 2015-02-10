@@ -1,6 +1,6 @@
 /* Space out content a bit */
 body {
-  padding-top: 20px;
+  padding-top: 0;
   padding-bottom: 20px;
 }
 
@@ -70,7 +70,7 @@ body {
   }
   /* Space out the masthead */
   .header {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
   }
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
