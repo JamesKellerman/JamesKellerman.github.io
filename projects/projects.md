@@ -1,7 +1,6 @@
 ---
 title: Projects
 layout: page
-order: 2
 ---
 
 {% for project in site.data.projectsList %}

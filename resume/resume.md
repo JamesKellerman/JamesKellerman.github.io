@@ -1,7 +1,6 @@
 ---
 title: Resume
 layout: default
-order: 3
 ---
 
 <div align="center">

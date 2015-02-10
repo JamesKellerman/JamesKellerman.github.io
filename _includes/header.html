@@ -1,8 +1,7 @@
 <header>
 
-  <div class="wrapper">
-
-
+	<div class="container">
+ 	<div class="header">
     <nav class="site-nav">
       <a href="#" class="menu-icon">
         <svg viewBox="0 0 18 15">
@@ -13,24 +12,8 @@
       </a>
 
 
-		<div class="trigger">
-		{% assign sorted_pages = site.pages | sort:"order" %}
-		{% for page in sorted_pages %}
-		{% if page.title %}
-		<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-		{% endif %}
-		{% endfor %}
-		</div>
-
-
-    </nav>
-
-  </div>
-
-			<div class="container">
-      <div class="header">
-        <nav>
-          <ul class="nav nav-pills pull-right">
+			<div class="trigger">
+          <ul class="nav nav-pills">
             <li {% if page.title == 'James Kellerman' %} class="active" {% endif %}>
 						<a href="../index.html">Home</a></li>
             <li {% if page.title == 'Projects' %} class="active" {% endif %}>
@@ -40,9 +23,12 @@
             <li {% if page.title == 'About' %} class="active" {% endif %}>
 						<a href="../about/about.html">About</a></li>
           </ul>
-        </nav>
-        <h2>James Kellerman</h2>
-      </div>
 			</div>
+
+		</nav>
+
+		<h2>James Kellerman</h2>
+	</div>
+	</div>
 
 </header>
