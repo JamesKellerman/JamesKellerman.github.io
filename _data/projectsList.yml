@@ -22,11 +22,11 @@
 - name: Plants MegaMinerAI 14
   link: https://github.com/siggame/MegaMinerAI-14
   position: Visualizer Developer
-  description: Branch out and dominate
+  description: Branch out and dominate using radioactive plants to destroy the enemy's mother plant.
   image: ../images/Plants.png
 
 - name: Droids MegaMinerAI 13
   link: https://github.com/siggame/MegaMinerAI-13
   position: Game Designer and Tester
-  description: Disassemble and destroy
+  description: Build your forces and utilize different unit types to destroy the enemy hangar.
   image: ../images/Droids.png
