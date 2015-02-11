@@ -14,7 +14,7 @@
   link:
   position: Lead Developer
   description: An Artificial Intelligence that plays Chess
-  image: ../images/Chess.png
+  image: ../images/ChessAI.png
 
 - name: <a href="http://blog.megaminerai.com/about_us/">SIG-Game</a> Projects
   break: true
