@@ -2,7 +2,7 @@
   hasLink: false
   language: Lua
   position: Lead Developer
-  description: A portable zombie shooter game for PSP
+  description: A portable zombie shooter game for the Playstation Portable (PSP)
   image: ../images/ZombieMassacre.png
 
 - name: Corner Detection
@@ -26,7 +26,7 @@
   description: An Artificial Intelligence that plays Chess
   image: ../images/ChessAI.png
 
-- name: <a href="http://blog.megaminerai.com/about_us/">SIG-Game</a> Projects
+- name: <a href="http://blog.megaminerai.com/about_us/" target="_blank">SIG-Game</a> Projects
   break: true
 
 - name: Plants MegaMinerAI 14

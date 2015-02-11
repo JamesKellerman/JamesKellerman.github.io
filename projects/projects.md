@@ -14,7 +14,7 @@ layout: default
   </div>
   {% else %}
     {% if project.hasLink %}
-  <h3><a href="{{project.link}}">{{project.name}}</a></h3>
+  <h3><a href="{{project.link}}" target="_blank">{{project.name}}</a></h3>
     {% else %}
   <h3>{{project.name}}</h3>
     {% endif %}
