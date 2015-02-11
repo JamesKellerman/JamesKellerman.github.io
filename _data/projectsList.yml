@@ -3,7 +3,7 @@
   language: Lua
   position: Lead Developer
   description: A portable zombie shooter game for PSP
-  image: ../images/ZombieMassacre.jpg
+  image: ../images/ZombieMassacre.png
 
 - name: Corner Detection
   hasLink: false
@@ -11,6 +11,13 @@
   position: Lead Developer
   description: A computer vision program that detects corners in different images and matches them
   image: ../images/CornerDetection.png
+
+- name: Assassin Run
+  hasLink: false
+  language: Lua
+  position: Lead Developer
+  description: A portable, level based stealth game for PSP
+  image: ../images/Assassin.png
 
 - name: Chess AI
   hasLink: false
