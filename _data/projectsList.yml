@@ -1,17 +1,20 @@
 - name: Zombie Massacre
-  link:
+  hasLink: false
+  language: Lua
   position: Lead Developer
   description: A portable zombie shooter game for PSP
   image: ../images/ZombieMassacre.jpg
 
 - name: Corner Detection
-  link:
+  hasLink: false
+  language: MATLAB
   position: Lead Developer
   description: A computer vision program that detects corners in different images and matches them
   image: ../images/CornerDetection.png
 
 - name: Chess AI
-  link:
+  hasLink: false
+  language: C++
   position: Lead Developer
   description: An Artificial Intelligence that plays Chess
   image: ../images/ChessAI.png
@@ -20,13 +23,17 @@
   break: true
 
 - name: Plants MegaMinerAI 14
+  hasLink: true
   link: https://github.com/siggame/MegaMinerAI-14
+  language: C++
   position: Visualizer Developer
   description: Branch out and dominate using radioactive plants to destroy the enemy's mother plant.
   image: ../images/Plants.png
 
 - name: Droids MegaMinerAI 13
+  hasLink: true
   link: https://github.com/siggame/MegaMinerAI-13
+  language: Python and C++
   position: Game Designer and Tester
   description: Build your forces and utilize different unit types to destroy the enemy hangar.
   image: ../images/Droids.png
