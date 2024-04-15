@@ -16,8 +16,15 @@
   hasLink: false
   language: Lua
   position: Lead Developer
-  description: A portable, level based stealth game for PSP
+  description: A portable level based stealth game for PSP
   image: ../images/Assassin.png
+
+  - name: Stickman Sidescroller
+  hasLink: false
+  language: C#
+  position: Lead Developer
+  description: A multiplatform sidescroller for PC and Mobile
+  image: ../images/StickmanSidescroller.png
 
 - name: Chess AI
   hasLink: false
