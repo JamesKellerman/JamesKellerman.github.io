@@ -19,7 +19,7 @@
   description: A portable level based stealth game for PSP
   image: ../images/Assassin.png
 
-  - name: Stickman Sidescroller
+- name: Stickman Sidescroller
   hasLink: false
   language: C#
   position: Lead Developer
